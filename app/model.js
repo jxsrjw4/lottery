@@ -145,6 +145,7 @@ module.exports.getPeople = function () {
     }
   }
 }
+
 module.exports.IsLotteryEmpty = function()
 {
   let db = SQL.dbOpen(window.model.db)
